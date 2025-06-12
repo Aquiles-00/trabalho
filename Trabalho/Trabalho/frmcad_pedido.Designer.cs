@@ -161,6 +161,7 @@
             btnsalvar.TabIndex = 13;
             btnsalvar.Text = "SALVAR";
             btnsalvar.UseVisualStyleBackColor = true;
+            btnsalvar.Click += btnsalvar_Click;
             // 
             // btnapagar
             // 

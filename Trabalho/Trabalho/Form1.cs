@@ -14,11 +14,21 @@ namespace Trabalho
 
         private void btnsalvar_Click(object sender, EventArgs e)
         {
-            var login = File.ReadAllLines(Login).ToList();
+            string usuarioDigitado = txtlogin.Text.Trim();
+            string senhaDigitada = txtsenha.Text.Trim();
 
+            if (usuarioDigitado == "admin" && senhaDigitada == "123")
+            {
+                MessageBox.Show("Login realizado com sucesso!", "Bem-vindo", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-
-
+                frmprinc telaPrincipal = new frmprinc();
+                telaPrincipal.Show();
+                this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("Usuário ou senha incorretos.", "Erro de Login", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
 
         }
 

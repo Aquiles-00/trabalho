@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace Trabalho
 {
-    public partial class frmcadastro_clientes: Form
+    public partial class frmcadastro_clientes : Form
     {
         public frmcadastro_clientes()
         {
             InitializeComponent();
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -79,7 +79,7 @@ namespace Trabalho
                  MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-             private void SalvarCompleto()
+        private void SalvarCompleto()
         {
             string nome = txtnome.Text.Trim();
             string CPF = txtcpf.Text.Trim();
@@ -136,6 +136,11 @@ namespace Trabalho
 
             caminhoListaCSV();
         }
+
+        private void btnsalvar_Click(object sender, EventArgs e)
+        {
+            SalvarCompleto();
+        }
     }
-    }
+}
 
