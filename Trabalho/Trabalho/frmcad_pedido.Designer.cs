@@ -170,6 +170,7 @@
             btnapagar.TabIndex = 14;
             btnapagar.Text = "APAGAR";
             btnapagar.UseVisualStyleBackColor = true;
+            btnapagar.Click += btnapagar_Click;
             // 
             // frmcad_pedido
             // 
@@ -193,6 +194,7 @@
             Controls.Add(txtnome);
             Name = "frmcad_pedido";
             Text = "frmcad_pedido";
+            Load += frmcad_pedido_Load;
             ((System.ComponentModel.ISupportInitialize)dgvpedido).EndInit();
             ResumeLayout(false);
             PerformLayout();

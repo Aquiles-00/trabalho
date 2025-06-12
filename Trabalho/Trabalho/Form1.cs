@@ -15,11 +15,16 @@ namespace Trabalho
         private void btnsalvar_Click(object sender, EventArgs e)
         {
             var login = File.ReadAllLines(Login).ToList();
-           
 
-        
-        
-        
+
+
+
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

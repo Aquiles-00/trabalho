@@ -15,3 +15,8 @@ C:\trabalho\Trabalho\Trabalho\obj\Debug\net9.0-windows\refint\Trabalho.dll
 C:\trabalho\Trabalho\Trabalho\obj\Debug\net9.0-windows\Trabalho.pdb
 C:\trabalho\Trabalho\Trabalho\obj\Debug\net9.0-windows\Trabalho.genruntimeconfig.cache
 C:\trabalho\Trabalho\Trabalho\obj\Debug\net9.0-windows\ref\Trabalho.dll
+C:\trabalho\Trabalho\Trabalho\obj\Debug\net9.0-windows\Trabalho.frmcadastro_clientes.resources
+C:\trabalho\Trabalho\Trabalho\obj\Debug\net9.0-windows\Trabalho.frmcad_pedido.resources
+C:\trabalho\Trabalho\Trabalho\obj\Debug\net9.0-windows\Trabalho.frmcad_produto.resources
+C:\trabalho\Trabalho\Trabalho\obj\Debug\net9.0-windows\Trabalho.frmcad_usuario.resources
+C:\trabalho\Trabalho\Trabalho\obj\Debug\net9.0-windows\Trabalho.frmprinc.resources
