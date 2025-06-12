@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace Trabalho
 {
-    public partial class frmcad_pedido: Form
+    public partial class frmcad_pedido : Form
     {
         public frmcad_pedido()
         {
             InitializeComponent();
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox6_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
