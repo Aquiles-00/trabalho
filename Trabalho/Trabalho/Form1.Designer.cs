@@ -28,35 +28,36 @@
         /// </summary>
         private void InitializeComponent()
         {
-            button1 = new Button();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
+            btnentrar = new Button();
+            txtlogin = new TextBox();
+            txtsenha = new TextBox();
             label1 = new Label();
             label2 = new Label();
             SuspendLayout();
             // 
-            // button1
+            // btnentrar
             // 
-            button1.Location = new Point(63, 298);
-            button1.Name = "button1";
-            button1.Size = new Size(145, 46);
-            button1.TabIndex = 0;
-            button1.Text = "Entrar";
-            button1.UseVisualStyleBackColor = true;
+            btnentrar.Location = new Point(63, 298);
+            btnentrar.Name = "btnentrar";
+            btnentrar.Size = new Size(145, 46);
+            btnentrar.TabIndex = 0;
+            btnentrar.Text = "Entrar";
+            btnentrar.UseVisualStyleBackColor = true;
+            btnentrar.Click += btnsalvar_Click;
             // 
-            // textBox1
+            // txtlogin
             // 
-            textBox1.Location = new Point(63, 100);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(145, 27);
-            textBox1.TabIndex = 1;
+            txtlogin.Location = new Point(63, 100);
+            txtlogin.Name = "txtlogin";
+            txtlogin.Size = new Size(145, 27);
+            txtlogin.TabIndex = 1;
             // 
-            // textBox2
+            // txtsenha
             // 
-            textBox2.Location = new Point(63, 188);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(145, 27);
-            textBox2.TabIndex = 2;
+            txtsenha.Location = new Point(63, 188);
+            txtsenha.Name = "txtsenha";
+            txtsenha.Size = new Size(145, 27);
+            txtsenha.TabIndex = 2;
             // 
             // label1
             // 
@@ -83,9 +84,9 @@
             ClientSize = new Size(319, 419);
             Controls.Add(label2);
             Controls.Add(label1);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
-            Controls.Add(button1);
+            Controls.Add(txtsenha);
+            Controls.Add(txtlogin);
+            Controls.Add(btnentrar);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
@@ -94,9 +95,9 @@
 
         #endregion
 
-        private Button button1;
-        private TextBox textBox1;
-        private TextBox textBox2;
+        private Button btnentrar;
+        private TextBox txtlogin;
+        private TextBox txtsenha;
         private Label label1;
         private Label label2;
     }
