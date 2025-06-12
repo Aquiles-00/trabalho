@@ -51,6 +51,7 @@
             txtlogin.Name = "txtlogin";
             txtlogin.Size = new Size(145, 27);
             txtlogin.TabIndex = 1;
+            txtlogin.TextChanged += txtlogin_TextChanged;
             // 
             // txtsenha
             // 

@@ -36,5 +36,10 @@ namespace Trabalho
         {
 
         }
+
+        private void txtlogin_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
