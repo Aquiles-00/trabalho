@@ -33,13 +33,13 @@
             txtcpf = new TextBox();
             txtnome = new TextBox();
             label6 = new Label();
-            txtnp = new TextBox();
-            txtcod = new TextBox();
+            txtemail = new TextBox();
+            txtend = new TextBox();
             label3 = new Label();
             label4 = new Label();
             label5 = new Label();
-            txtpre = new TextBox();
-            txtquant = new TextBox();
+            txtzapzap = new TextBox();
+            txttel = new TextBox();
             dataGridView1 = new DataGridView();
             button1 = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
@@ -86,19 +86,19 @@
             label6.TabIndex = 23;
             label6.Text = "WhatsApp";
             // 
-            // txtnp
+            // txtemail
             // 
-            txtnp.Location = new Point(323, 56);
-            txtnp.Name = "txtnp";
-            txtnp.Size = new Size(125, 27);
-            txtnp.TabIndex = 15;
+            txtemail.Location = new Point(323, 56);
+            txtemail.Name = "txtemail";
+            txtemail.Size = new Size(125, 27);
+            txtemail.TabIndex = 15;
             // 
-            // txtcod
+            // txtend
             // 
-            txtcod.Location = new Point(479, 56);
-            txtcod.Name = "txtcod";
-            txtcod.Size = new Size(125, 27);
-            txtcod.TabIndex = 16;
+            txtend.Location = new Point(479, 56);
+            txtend.Name = "txtend";
+            txtend.Size = new Size(125, 27);
+            txtend.TabIndex = 16;
             // 
             // label3
             // 
@@ -128,19 +128,19 @@
             label5.TabIndex = 21;
             label5.Text = "Telefone";
             // 
-            // txtpre
+            // txtzapzap
             // 
-            txtpre.Location = new Point(182, 135);
-            txtpre.Name = "txtpre";
-            txtpre.Size = new Size(124, 27);
-            txtpre.TabIndex = 22;
+            txtzapzap.Location = new Point(182, 135);
+            txtzapzap.Name = "txtzapzap";
+            txtzapzap.Size = new Size(124, 27);
+            txtzapzap.TabIndex = 22;
             // 
-            // txtquant
+            // txttel
             // 
-            txtquant.Location = new Point(26, 135);
-            txtquant.Name = "txtquant";
-            txtquant.Size = new Size(125, 27);
-            txtquant.TabIndex = 14;
+            txttel.Location = new Point(26, 135);
+            txttel.Name = "txttel";
+            txttel.Size = new Size(125, 27);
+            txttel.TabIndex = 14;
             // 
             // dataGridView1
             // 
@@ -168,15 +168,15 @@
             Controls.Add(button1);
             Controls.Add(dataGridView1);
             Controls.Add(label6);
-            Controls.Add(txtpre);
+            Controls.Add(txtzapzap);
             Controls.Add(label5);
             Controls.Add(label4);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
-            Controls.Add(txtcod);
-            Controls.Add(txtnp);
-            Controls.Add(txtquant);
+            Controls.Add(txtend);
+            Controls.Add(txtemail);
+            Controls.Add(txttel);
             Controls.Add(txtcpf);
             Controls.Add(txtnome);
             Name = "frmcadastro_clientes";
@@ -193,13 +193,13 @@
         private TextBox txtcpf;
         private TextBox txtnome;
         private Label label6;
-        private TextBox txtnp;
-        private TextBox txtcod;
+        private TextBox txtemail;
+        private TextBox txtend;
         private Label label3;
         private Label label4;
         private Label label5;
-        private TextBox txtpre;
-        private TextBox txtquant;
+        private TextBox txtzapzap;
+        private TextBox txttel;
         private DataGridView dataGridView1;
         private Button button1;
     }
